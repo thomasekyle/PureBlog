@@ -1,0 +1,91 @@
+.panel {
+    font-weight: 300;
+    padding-bottom: 1em;
+}
+
+.panel a {
+	color:#fff;
+}
+
+.panel a:hover {
+	color:#ccc;
+}
+
+.panel-list {
+    margin:0.05em;
+    font-weight: 300;
+    padding-bottom: 0.25em;
+}
+
+.panel-list a {
+	color:#fff;
+}
+
+.panel-list a:hover {
+	color:#ccc;
+}
+
+.panel-login {
+    text-align: center;
+}
+
+.panel-centered {
+    font-weight: 300;
+    padding-bottom: 1em;
+    margin: 0 auto;
+
+}
+
+.panel-icons {
+    padding:0;
+    text-align: right;
+}
+
+
+.panel-header{
+    text-align: left;
+    font-weight: 200;
+    font-size: 120%;
+    color: #fff;
+    background: #333333;
+    padding: 0.5em;
+}
+
+.panel-body {
+    color: #000;
+    background: #efefef;
+    padding: 0.5em;
+}
+
+.panel-body a {
+    color: #000;
+}
+
+.panel-body-centered {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.panel-footer {
+    text-align: left;
+    background: #e8e8e8;
+    padding:0.5em;
+}
+
+
+
+.panel-footer-login {
+    text-align: right;
+    background: #e8e8e8;
+    padding:1em;
+}
+
+.toleft{
+    text-align: left;
+}
+.centered {
+    text-align: center;
+}
+.toright {
+    text-align: right;
+}
