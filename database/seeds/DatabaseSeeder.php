@@ -40,7 +40,7 @@ class DBSeeder extends Seeder
             'author_name'               => 'Web Admin',
             'birthday'                  => '1987-06-12',
             'phone_number'              => '704-999-6255',
-            'email'                     => 'webadmin@blarg.com',
+            'email'                     => 'webadmin@pureblog.com',
             'create'                    => 'on',
             'edit'                      => 'on',
             'delete'                    => 'on',
@@ -63,10 +63,10 @@ class DBSeeder extends Seeder
 
         
         $settings = App\Settings::create(array(
-            'blog_name'                 => 'Blarg',
+            'blog_name'                 => 'PureBlog',
             'blog_description'          => 'A place for your thoughts.',
             'blog_phone_number'         => '7045990763',
-            'blog_email'                => 'webadmin@blarg.com',
+            'blog_email'                => 'webadmin@pureblog.com',
             'blog_facebook'             => 'www.facebook.com',
             'blog_twitter'              => 'www.twitter.com',
             'blog_linkedin'             => 'www.linkedin.com',
