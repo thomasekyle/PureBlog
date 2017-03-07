@@ -6,9 +6,9 @@ Out of boredom I put together a personal blog web app using the Laravel (5.1 LTS
 <p>Database config can be found in the config folder named database.php. You can use MySQL, MariaDB, SQLite or whatever you prefer.
 </p>
 
-    <p>git clone https://github.com/thomasekyle/PureBlog.git</p>
-    <p>php artisan migrate</p>
-    <p>php artisan db:seed</p>
+    git clone https://github.com/thomasekyle/PureBlog.git
+    php artisan migrate
+    php artisan db:seed
   
 <p>Default account will be webadmin@pureblog.com. Password is pleasechangeme</p>
 <p>You will get a default post, and blog details. You can change these as necessary.</p>
