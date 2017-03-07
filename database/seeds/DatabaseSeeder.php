@@ -71,7 +71,7 @@ class DBSeeder extends Seeder
             'blog_twitter'              => 'www.twitter.com',
             'blog_linkedin'             => 'www.linkedin.com',
             'blog_instagram'            => 'www.instgram.com',
-            'blog_github'               => 'www,github.com'
+            'blog_github'               => 'www.github.com'
             ));
          
     }
