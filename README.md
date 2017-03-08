@@ -14,9 +14,9 @@ Out of boredom I put together a personal blog web app using the Laravel (5.1 LTS
 <p>You will get a default post, and blog details. You can change these as necessary.</p>
 
 
-## What it look like
-![alt tag](https://raw.githubusercontent.com/thomasekyle/PureBlog/purefront.png)
-![alt tag](https://raw.githubusercontent.com/thomasekyle/PureBlog/pureback.png)
+## What it looks like
+![alt tag](https://github.com/thomasekyle/PureBlog/purefront.png)
+![alt tag](https://github.com/thomasekyle/PureBlog/pureback.png)
 
 All designs are responsive.
 
