@@ -15,8 +15,8 @@ Out of boredom I put together a personal blog web app using the Laravel (5.1 LTS
 
 
 ## What it looks like
-![alt tag](https://github.com/thomasekyle/PureBlog/purefront.png)
-![alt tag](https://github.com/thomasekyle/PureBlog/pureback.png)
+![ScreenShot](purefront.png)
+![ScreenShot](pureback.png)
 
 All designs are responsive.
 
