@@ -59,13 +59,9 @@ jobs:
       - run:
           name: Creating Dummy Artifacts
           command: |
-            echo "my artifact file" > /tmp/artifact-1;
             mkdir /tmp/artifacts;
-            echo "my artifact files in a dir" > /tmp/artifacts/artifact-2;
+            tar zvf * /tmp/artifacts/pureblog-0.0.${CIRCLE_PREVIOUS_BUILD_NUM}.tar.gz
 
       - store_artifacts:
-          path: /tmp/artifact-1
-          destination: artifact-file
+          path: /tmp/pureblog-0.0.${CIRCLE_PREVIOUS_BUILD_NUM}.tar.gz
 
-      - store_artifacts:
-          path: /tmp/artifacts
