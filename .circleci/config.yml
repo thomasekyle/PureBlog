@@ -60,7 +60,7 @@ jobs:
           name: Creating Dummy Artifacts
           command: |
             mkdir /tmp/artifacts;
-            tar zvf /tmp/artifacts/pureblog-0.0.${CIRCLE_PREVIOUS_BUILD_NUM}.tar.gz * 
+            tar cvf /tmp/artifacts/pureblog-0.0.${CIRCLE_PREVIOUS_BUILD_NUM}.tar.gz * 
 
       - store_artifacts:
           path: /tmp/pureblog-0.0.${CIRCLE_PREVIOUS_BUILD_NUM}.tar.gz
